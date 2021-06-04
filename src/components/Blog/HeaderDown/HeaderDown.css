@@ -1,0 +1,368 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.headerDown{
+  position: relative;
+  padding-top: 10%;
+}
+.headerDown .img_bottle .begin_coffee{
+    font-style: normal;
+    font-family: "SignPainter";
+    font-size: 70px;
+    position: absolute;
+    right: 10%;
+    z-index: 2;
+    top:28%;
+    text-align: right;
+    color: #256759;
+  }
+  .headerDown .img_bottle .coffee_its{
+    font-style: normal;
+    font-family: "SignPainter";
+    font-size: 38px;
+    position: absolute;
+    left: 5%;
+    z-index: 2;
+    top:82%;
+    color: #000;
+  }
+  .headerDown .img_bottle .coffee_its p{
+    font-style: normal;
+    font-family: "SignPainter";
+    font-size: 38px;
+    position: absolute;
+    z-index: 2;
+    margin: 0;
+    color:#574013;
+  }
+  .headerDown .img_bottle{
+    width: 95%;
+    margin: 0 auto;
+  }
+  .headerDown{
+    position: relative;
+    width: auto;
+    height: 105vh;
+    background: url('../img/bg.jpg')center /cover no-repeat;
+  }
+  .headerDown .butterfly{
+    padding-top: 0%;
+    width: 55%;
+  }
+  .headerDown .slime_blue{
+    width: 37%;
+    margin-left:5% ;
+  }
+  .headerDown .slime_broun{
+    width: 30%;
+    right: 5%;
+    top:8%;
+    position: absolute;
+    z-index: 1;
+  }
+  #Model{
+    width: 450px;
+    height: 400px;  
+    position: absolute;
+    right: 15%;
+    bottom:8%;
+    transform:rotate(20deg);
+  }
+  @media (min-width:0) and (max-width: 320px){
+    .headerDown{
+      position: relative;
+      width: auto;
+      height: 100vh;
+      background: url('../img/bg.jpg')center /cover no-repeat;
+    }
+    .headerDown .img_bottle{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .headerDown .img_bottle .begin_coffee{
+      font-style: normal;
+      font-family: "SignPainter";
+      font-size: 20px;
+      position: absolute;
+      right: 5%;
+      z-index: 2;
+      top:10%;
+      color: #256759;
+    }
+    .headerDown .img_bottle .coffee_its{
+      font-style: normal;
+      font-family: "SignPainter";
+      font-size: 19px;
+      position: absolute;
+      left: 5%;
+      z-index: 2;
+      top:85%;
+      color: #000;
+    }
+    .headerDown .img_bottle .coffee_its p{
+   display: none;
+    }
+    .headerDown .butterfly{
+      display: none;
+    }
+    .headerDown .slime_blue{
+      width: 120px;
+      opacity: 0.8;
+      position: absolute;
+      right: 5%;
+      transform: rotate(90deg);
+    }
+    .headerDown .slime_broun{
+      position: absolute;
+      top:79%;
+      width: 120px;
+      left: 5%;
+    }
+    #Model{
+      margin-left:10%;
+      width: 280px;
+      height: 300px;  
+      top:25%;
+      position: absolute;
+      transform: rotate(0deg);
+    }
+  }
+  @media (min-width:321) and (max-width: 375px){
+    .headerDown{
+      position: relative;
+      width: auto;
+      height: 100vh;
+      background: url('../img/bg.jpg')center /cover no-repeat;
+    }
+    .headerDown .img_bottle{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .headerDown .img_bottle .begin_coffee{
+      font-style: normal;
+      font-family: "SignPainter";
+      font-size: 25px;
+      position: absolute;
+      right: 5%;
+      z-index: 2;
+      top:10%;
+      color: #256759;
+    }
+    .headerDown .img_bottle .coffee_its{
+      font-style: normal;
+      font-family: "SignPainter";
+      font-size: 25px;
+      position: absolute;
+      left: 5%;
+      z-index: 2;
+      bottom: 3%;
+      color: #000;
+    }
+    .headerDown .img_bottle .coffee_its p{
+   display: none;
+    }
+    .headerDown .butterfly{
+      display: none;
+    }
+    .headerDown .slime_blue{
+      width: 150px;
+      opacity: 0.8;
+      position: absolute;
+      right: 5%;
+      transform: rotate(90deg);
+    }
+    .headerDown .slime_broun{
+      position: absolute;
+      top:79%;
+      width: 150px;
+      left: 5%;
+    }
+    #Model{
+      margin-left:10%;
+      width: 300px;
+      height: 350px;  
+      top:25%;
+      position: absolute;
+      transform: rotate(0deg);
+    }
+  }
+  @media (min-width:376px) and (max-width: 414px){
+    .headerDown{
+      position: relative;
+      width: auto;
+      height: 100vh;
+      background: url('../img/bg.jpg')center /cover no-repeat;
+    }
+    .headerDown .img_bottle{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .headerDown .img_bottle .begin_coffee{
+      font-style: normal;
+      font-family: "SignPainter";
+      font-size: 30px;
+      position: absolute;
+      right: 5%;
+      z-index: 2;
+      top:10%;
+      color: #256759;
+    }
+    .headerDown .img_bottle .coffee_its{
+      font-style: normal;
+      font-family: "SignPainter";
+      font-size: 25px;
+      position: absolute;
+      left: 5%;
+      z-index: 2;
+      top:85%;
+      color: #000;
+    }
+    .headerDown .img_bottle .coffee_its p{
+   display: none;
+    }
+    .headerDown .butterfly{
+      display: none;
+    }
+    .headerDown .slime_blue{
+      width: 150px;
+      opacity: 0.8;
+      position: absolute;
+      right: 5%;
+      transform: rotate(90deg);
+    }
+    .headerDown .slime_broun{
+      position: absolute;
+      top:75%;
+      width: 170px;
+      left: 5%;
+    }
+    #Model{
+      margin-left:10%;
+      width: 350px;
+      height: 350px;  
+      top:25%;
+      position: absolute;
+      transform: rotate(0deg);
+    }
+  }
+  @media (min-width:415px) and (max-width: 768px){
+    .headerDown{
+      position: relative;
+      width: auto;
+      height: 100vh;
+      background: url('../img/bg.jpg')center /cover no-repeat;
+    }
+    .headerDown .img_bottle{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .headerDown .img_bottle .begin_coffee{
+      font-style: normal;
+      font-family: "SignPainter";
+      font-size: 45px;
+      position: absolute;
+      right: 5%;
+      z-index: 2;
+      top:10%;
+      color: #256759;
+    }
+    .headerDown .img_bottle .coffee_its{
+      font-style: normal;
+      font-family: "SignPainter";
+      font-size: 45px;
+      position: absolute;
+      left: 5%;
+      z-index: 2;
+      top:88%;
+      color: #000;
+    }
+    .headerDown .img_bottle .coffee_its p{
+   display: none;
+    }
+    .headerDown .butterfly{
+      display: none;
+    }
+    .headerDown .slime_blue{
+      width: 215px;
+      opacity: 0.8;
+      position: absolute;
+      right: 7%;
+      transform: rotate(90deg);
+    }
+    .headerDown .slime_broun{
+      position: absolute;
+      top:79%;
+      width: 250px;
+      left: 5%;
+    }
+    #Model{
+      margin-left:10%;
+      width: 600px;
+      height: 600px;  
+      top:25%;
+      position: absolute;
+      transform: rotate(0deg);
+    }
+  }
+  @media (min-width:769px) and (max-width:1024px){
+      .headerDown{
+      position: relative;
+      width: auto;
+      height: 100vh;
+      background: url('../img/bg.jpg')center /cover no-repeat;
+    }
+    .headerDown .img_bottle{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .headerDown .img_bottle .begin_coffee{
+      font-style: normal;
+      font-family: "SignPainter";
+      font-size: 65px;
+      position: absolute;
+      right: 5%;
+      z-index: 2;
+      top:10%;
+      color: #256759;
+    }
+    .headerDown .img_bottle .coffee_its{
+      font-style: normal;
+      font-family: "SignPainter";
+      font-size: 60px;
+      position: absolute;
+      left: 5%;
+      z-index: 2;
+      top:90%;
+      color: #000;
+    }
+    .headerDown .img_bottle .coffee_its p{
+   display: none;
+    }
+    .headerDown .butterfly{
+      display: none;
+    }
+    .headerDown .slime_blue{
+      width: 350px;
+      opacity: 0.8;
+      margin: 0;
+      position: absolute;
+      right: 7%;
+      transform: rotate(90deg);
+    }
+    .headerDown .slime_broun{
+      position: absolute;
+      top:80%;
+      height: 300px;
+      width: 450px;
+      left: 5%;
+    }
+    #Model{
+      margin-left:10%;
+      width: 800px;
+      height: 800px;  
+      top:25%;
+      position: absolute;
+      transform: rotate(0deg);
+    }
+  }
